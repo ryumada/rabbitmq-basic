@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-producer": "node producer.js",
+    "start-consumer": "node consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
